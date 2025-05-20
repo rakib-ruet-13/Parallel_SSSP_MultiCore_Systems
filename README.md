@@ -161,7 +161,7 @@ Run appropriate bash file like run_SSSP.sh with editing the filenames and progra
 ```
 
 ## 🧑‍💻 Authors
-Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
+Rakibul Hassan — hassar2@unlv.nevada.edu
 <a href= 'https://scholar.google.com/citations?user=_UJn9VoAAAAJ&hl=en&oi=ao'> Author's Google Scholar Profile</a>
 
 Shaikh Arifuzzaman — shaikh.arifuzzaman@unlv.edu
