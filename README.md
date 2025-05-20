@@ -106,3 +106,36 @@ This project contains an efficient multi-core parallel implementation of the Sin
     </tr>
   </tbody>
 </table>
+
+
+## Results
+<table border="1" cellpadding="5" cellspacing="0">
+  <caption><strong>COMPARATIVE RUNTIME (MS) OF DIFFERENT SSSP IMPLEMENTATIONS</strong></caption>
+  <thead>
+    <tr>
+      <th rowspan="2">Graphs</th>
+      <th colspan="2">Serial</th>
+      <th colspan="2">Parallel</th>
+    </tr>
+    <tr>
+      <th>Dijkstra</th>
+      <th>Bellman-Ford</th>
+      <th>GAPBS</th>
+      <th>PD3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Kron 20</td><td>1337</td><td>1134</td><td>54</td><td>48</td></tr>
+    <tr><td>Kron 21</td><td>2857</td><td>1979</td><td>94</td><td>82</td></tr>
+    <tr><td>Kron 22</td><td>6495</td><td>4765</td><td>180</td><td>144</td></tr>
+    <tr><td>Kron 23</td><td>15032</td><td>11305</td><td>430</td><td>307</td></tr>
+    <tr><td>road-road-usa</td><td>11991</td><td>751968</td><td>545</td><td>547</td></tr>
+    <tr><td>Live Journal</td><td>8347</td><td>7769</td><td>165</td><td>124</td></tr>
+    <tr><td>Orkut</td><td>11897</td><td>13322</td><td>230</td><td>223</td></tr>
+    <tr><td>Youtube</td><td>1066</td><td>496</td><td>19</td><td>20</td></tr>
+    <tr><td>socfb-uci-uni</td><td>92732</td><td>59112</td><td>1409</td><td>1396</td></tr>
+    <tr><td>soc-sinaweibo</td><td>130333</td><td>95591</td><td>2478</td><td>2353</td></tr>
+    <tr><td>soc-twitter-2010</td><td>22822</td><td>9472</td><td>2117</td><td>1749</td></tr>
+  </tbody>
+</table>
+
