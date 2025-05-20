@@ -114,8 +114,8 @@ This project contains an efficient multi-core parallel implementation of the Sin
   <thead>
     <tr>
       <th rowspan="2">Graphs</th>
-      <th colspan="2">Serial</th>
-      <th colspan="2">Parallel</th>
+      <th colspan="1">Serial</th>
+      <th colspan="3">Parallel</th>
     </tr>
     <tr>
       <th>Dijkstra</th>
