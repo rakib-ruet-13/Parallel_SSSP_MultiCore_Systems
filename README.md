@@ -139,3 +139,50 @@ This project contains an efficient multi-core parallel implementation of the Sin
   </tbody>
 </table>
 
+## Build Instructions
+### Dependencies
+* C++17 compatible compiler (e.g., g++, clang++)
+* OpenMP
+* libomp or system-supported OpenMP runtime
+* OS used (Linux-Mint)
+
+## Compile
+```
+make
+```
+## Running the Code
+```
+./"FileName".exe "Input_File_Name.txt"
+```
+
+## Running all files together
+```
+Run appropriate bash file like run_SSSP.sh with editing the filenames and program_names acording to your need
+```
+
+## 🧑‍💻 Authors
+Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
+<a href= 'https://scholar.google.com/citations?user=_UJn9VoAAAAJ&hl=en&oi=ao'> Author's Google Scholar Profile</a>
+
+Shaikh Arifuzzaman — shaikh.arifuzzaman@unlv.edu
+<a href= 'https://scholar.google.com/citations?hl=en&user=_DSRMYIAAAAJ'> Author's Google Scholar Profile</a>
+
+## Citation
+If you use this work in your research, please cite the following:
+```
+@INPROCEEDINGS{10938422,
+  author={Hassan, Rakibul and Arifuzzaman, Shaikh},
+  booktitle={2024 IEEE High Performance Extreme Computing Conference (HPEC)}, 
+  title={An Efficient Multi-Core Parallel Implementation of SSSP Algorithm with Decreasing Delta-Stepping}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Runtime;Social networking (online);Heuristic algorithms;Scalability;Roads;Memory management;Transportation;Load management;Parallel algorithms;Optimization;SSSP;Parallel Algorithm;Large graphs;Delta-Stepping;Parallel Optimization;Multi-core Systems},
+  doi={10.1109/HPEC62836.2024.10938422}}
+
+
+```
+<a href= 'https://ieeexplore.ieee.org/abstract/document/10938422'> Paper Link  </a>
+
+
